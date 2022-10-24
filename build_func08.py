@@ -7,4 +7,6 @@ def main(x,y):
     Returns:
         result : int
     """
-    return 
+    answer=5*pow(x,2)*pow(y,3)+x*pow(y,2)
+    return answer
+print(main(7,1))
