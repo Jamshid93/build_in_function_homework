@@ -1,4 +1,4 @@
-def main():
+def main(n):
     """
     Calculate the value of expression and return result:
 
@@ -6,4 +6,5 @@ def main():
         result: float
     """
 
-    return
+    return n
+print(main(3*((7/5)-(9/4))))
