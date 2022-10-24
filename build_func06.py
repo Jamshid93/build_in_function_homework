@@ -6,5 +6,6 @@ def main(a):
     Returns:
         result : float
     """
-    return
- 
+    a=round((a),2)
+    return a
+print(main(7.5))
