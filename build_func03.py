@@ -1,3 +1,5 @@
+from math import pow
+from unittest import result
 def main(n):
     """
     Given a argument called 'n' type of float , calculate the value of expression and return result:
@@ -6,5 +8,8 @@ def main(n):
     Returns:
         result : float
     """
-    return 
+    n=3.5
+    result=3*(pow((n+1),2))
+    return result
+print(main(result))
 
